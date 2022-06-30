@@ -1,0 +1,637 @@
+
+@font-face {
+	font-family: 'Gilroy-bold';
+	src: url(' ../fonts/gilroy-bold.eot');
+	src: local('☺'), url('../fonts/gilroy-bold.woff') format('woff'), url('../fonts/gilroy-bold.ttf') format('truetype'), url('../fonts/gilroy-bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy-medium';
+	src: url('../fonts/gilroy-medium.eot');
+	src: local('☺'), url('../fonts/gilroy-medium.woff') format('woff'), url('../fonts/gilroy-medium.ttf') format('truetype'), url('../fonts/gilroy-medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+a, a:visited{text-decoration: none;}
+html,body{
+	overflow-x: hidden;
+}
+
+ul, li{list-style: none;}
+
+header{
+	height: 768px;
+	background: #ffffff;
+	width: 100%;
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    
+} 
+
+.me{
+
+}
+
+img{
+	max-width: 100%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper {
+	height: 4759px;
+	max-width: 1445px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	position: relative;
+	justify-content: center;
+}
+
+.wrapper2{
+	max-width: 945px;
+	width: 100%;
+	
+}
+
+.about_me {
+	height: 506px;
+	background: #f6f6f6;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.skills {
+	height: 610px;
+	background: #FFFFFF;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.portfolio {
+	height: 2253px;
+	background: #f6f6f6;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+footer{
+	height: 662px;
+	background: #FFFFFF;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+	max-width: 942px;
+	width: 100%;
+	height: 1.5px;
+	background: #828282;
+	margin-top: 32px;
+}
+.nav__menu{
+	font-family: 'Gilroy-bold';
+	line-height: 22px;
+	font-size: 18px;
+	color: #828282;
+	transition: 1s;
+}
+
+.nav__menu:hover{
+	color: #828291;
+	text-shadow:rgba(0, 0, 0, 1) 1px 1px 0px;
+	transition: 1s;
+}
+
+.nav__menu_active{
+	color: #070707;
+	justify-content: space-between;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+.Denis {
+	font-family: 'Gilroy-bold';
+	line-height: 59px;
+	font-size: 47px;
+	color: #070707;
+}
+.designer {
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+	transform: translate(0,113px);
+
+}
+.RUENG {
+	transform: rotate(-90deg) translate(-19px,120px);
+	font-family: 'Gilroy-bold';
+
+}	
+
+#image1{
+	transform: translate(0,40px);
+}
+
+.RU{
+	color: #828282;
+}
+
+.about {
+	font-family: 'Gilroy-bold';
+	line-height: 42px;
+	font-size: 34px;
+	color: #070707;
+	margin-top: 120px;
+}
+.text {
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+	height: 218px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 17px;
+}
+
+.skills_text {
+	font-family: 'Gilroy-bold';
+	line-height: 42px;
+	font-size: 34px;
+	color: #070707;
+	margin-top: 92px;
+}
+.skills_description {
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+	margin-top: 69px;
+}
+.skills_programms {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	font-family: 'Gilroy-bold';
+	line-height: 17px;
+	font-size: 14px;
+	color: #828282;
+	flex-wrap: wrap;
+	margin-top: 84px;
+}
+.skills_programms_description {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	left: 220px;
+	top: 170px;
+	text-align: center;
+	font-family: 'Gilroy-bold';
+	line-height: 17px;
+	font-size: 14px;
+	color: #828282;
+}
+
+.skills_photoshop {
+	width: 166px;
+	height: 206px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.skills__stars {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills_stars {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 180px;
+	left: 215px;
+	width: 980px;
+	flex-wrap: wrap;
+}
+
+.skills_star {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.star{
+	background: url('../img/Star.png') no-repeat;
+	width: 23px;
+	height: 21px;
+	margin: 5px;
+}
+
+.star2{
+	background: url('../img/Star2.png') no-repeat;
+	width: 23px;
+	height: 21px;
+	margin: 5px;
+}
+
+.portfolio_text {
+	font-family: 'Gilroy-bold';
+	line-height: 42px;
+	font-size: 34px;
+	color: #070707;
+	margin-top: 112px;
+}
+.portfolio_woman {	
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 47px;
+}
+.portfolio_reebok {
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 99px;
+}
+.portfolio_braun {
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 99px;
+}
+
+.portfolio_img_text{
+	margin-top: 45px;
+}
+
+.footer_title {
+	font-family: 'Gilroy-bold';
+	line-height: 42px;
+	font-size: 34px;
+	color: #070707;
+
+}
+.footer_text {
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	color: #070707;
+
+}
+.footer_button {
+	display: inline-block;
+	position: relative;
+	width: 180px;
+	height: 42px;
+	background: #070707;
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-family: 'Gilroy-medium';
+	line-height: 22px;
+	font-size: 18px;
+	transition: 1s;
+	margin-top: 30px;
+}
+
+.footer_button:hover{
+	background: #828282;
+	transition: 1s;
+}
+
+#button_text{
+	position: absolute;
+	bottom: 10px;
+	left: 28px;
+}
+
+.footer_icons {
+	max-width: 342px;
+	width: 100%;
+	height: 42px;
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: 86px;
+}
+.footer_like {
+	font-family: 'Gilroy-medium';
+	line-height: 17px;
+	font-size: 14px;
+	color: #828282;
+	margin-top: 46px;	
+}
+
+.footer__link {
+	max-width: 180px;
+	width: 100%;
+
+}
+
+@media (max-width: 947px) and (min-width: 860px){
+	.portfolio{
+		height: 2100px;
+	}
+} 
+
+
+@media (max-width: 859px) and (min-width: 786px){
+	.portfolio{
+		height: 2030px;
+	}
+
+	.skills_programms{
+		width: 80%;
+		justify-content: space-around;
+		margin-left: 10%;
+	}
+
+	.skills{
+		height: 900px;
+	}
+
+	.skills_photoshop{
+		margin: 50px;
+	}
+} 
+
+@media (max-width: 787px) and (min-width: 734px){
+	.portfolio{
+		height: 1900px;
+	}
+
+	.skills_programms{
+		width: 80%;
+		justify-content: space-around;
+		margin-left: 10%;
+	}
+
+	.skills{
+		height: 900px;
+	}
+
+	.skills_photoshop{
+		margin: 50px;
+	}
+} 
+
+@media (max-width: 733px) and (min-width: 670px){
+	.portfolio{
+		height: 1800px;
+	}
+
+	.skills_programms{
+		width: 80%;
+		justify-content: space-around;
+		margin-left: 10%;
+	}
+
+	.skills{
+		height: 900px;
+	}
+
+	.skills_photoshop{
+		margin: 40px;
+	}
+
+	header{
+		height: 500px;
+		transform: translate(0,-50px);
+	}
+
+	.wrapper{
+		height: 4500px;
+	}
+} 
+
+@media (max-width: 670px) and (min-width: 600px){
+	.portfolio{
+		height: 1700px;
+	}
+
+	.skills_programms{
+		width: 90%;
+		justify-content: space-around;
+		margin-left: 5%;
+	}
+
+	.skills{
+		height: 900px;
+	}
+
+	.skills_photoshop{
+		margin: 30px;
+	}
+
+	.wrapper{
+		height: 4400px;
+	}
+
+	header{
+		height: 530px;
+		transform: translate(0,-50px);
+	}
+} 
+
+@media (max-width: 600px) and (min-width: 540px){
+	.portfolio{
+		height: 1600px;
+	}
+
+		.skills_programms{
+		width: 90%;
+		justify-content: space-around;
+		margin-left: 5%;
+	}
+
+	.skills{
+		height: 900px;
+	}
+
+	.skills_photoshop{
+		margin: 30px;
+	}
+
+	header{
+		height: 600px;
+	}
+
+	.wrapper{
+		height: 4300px;
+	}
+
+} 
+
+@media (max-width: 540px) and (min-width: 500px){
+	.portfolio{
+		height: 1500px;
+	}
+
+		.skills_programms{
+		width: 90%;
+		justify-content: space-around;
+		margin-left: 5%;
+	}
+
+	.skills{
+		height: 900px;
+	}
+
+	.skills_photoshop{
+		margin: 20px;
+	}
+
+	.wrapper{
+		height: 4200px;
+	}
+
+	header{
+		height: 600px;
+	}
+} 
+
+@media (max-width: 500px) and (min-width: 420px){
+	.portfolio{
+		height: 1430px;
+	}
+
+	.skills_programms{
+		width: 90%;
+		justify-content: space-around;
+		margin-left: 5%;
+	}
+
+	.skills{
+		height: 1400px;
+	}
+
+	.skills_photoshop{
+		margin: 30px;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.line{
+		display: none;
+	}
+
+	.wrapper{
+		height: 4300px;
+	}
+
+	header{
+		height: 500px;
+	}
+} 
+
+@media (max-width: 420px) and (min-width: 350px){
+	.portfolio{
+		height: 1300px;
+	}
+
+	.skills_programms{
+		width: 90%;
+		justify-content: space-around;
+		margin-left: 5%;
+	}
+
+	.skills{
+		height: 1400px;
+	}
+
+	.skills_photoshop{
+		margin: 30px;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.line{
+		display: none;
+	}
+
+	.wrapper{
+		height: 4300px;
+	}
+
+	header{
+		height: 500px;
+	}
+
+	.RUENG{display: none;}
+} 
+
+@media (max-width: 350px) and (min-width: 300px){
+	.portfolio{
+		height: 1200px;
+	}
+
+	.skills_programms{
+		width: 90%;
+		justify-content: space-around;
+		margin-left: 5%;
+	}
+
+	.skills{
+		height: 1400px;
+	}
+
+	.skills_photoshop{
+		margin: 30px;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.line{
+		display: none;
+	}
+
+	.wrapper{
+		height: 4300px;
+	}
+
+	header{
+		height: 500px;
+	}
+
+	.RUENG{display: none;}
+} 
